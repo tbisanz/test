@@ -9,4 +9,4 @@ if( ${PYTHON_VERSION_STRING} VERSION_LESS 2.7 )
   message(FATAL_ERROR "Python 2.7 or newer is required")
 endif()
 
-message(FATAL_ERROR "Python OKAY!" ${PYTHON_VERSION_STRING})
+message("Python OKAY!: " ${PYTHON_VERSION_STRING})
